@@ -7,7 +7,6 @@
     2. There is a repeated letter in t that is not repeated in s. 
     Then, we return false.
 
-
     The best way to solve this in O(n) is to use a frequency array that records
     the frequency of each letter. If the strings are truly anagrams, then each
     letter should have the same frequency in both strings.
