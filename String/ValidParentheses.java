@@ -1,4 +1,3 @@
-package String;
 import java.util.Stack;
 /*
     To solve this problem, note that the way the parentheses match is if the last opening bracket
