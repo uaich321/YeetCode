@@ -20,23 +20,37 @@
 
     Finally, we loop through the frequency array and check if there are any non-zero values.
     If there are, then we return false, otherwise we return true.
+
+    Personally, I used a for-each loop since I wouldn't have to waste time
+    writing and accessing the character at the index, which is a bit more
+    efficient.
+
+    If you want to make the code look cleaner, you can use one normal for loop
+    to add and substract to the frequency array in the same loop, 
+    but I think that would be less efficient since you would have to access the 
+    character at the index twice, which is more time consuming than using two 
+    for-each loops.
  
  */
 public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
-        if (s.length() != t.length()) {
+         if (s.length() != t.length()) {
             return false;
-        }
-        int[] count = new int[26];
-        for (int i = 0; i < s.length(); i++) {
-            count[s.charAt(i) - 'a']++;
-            count[t.charAt(i) - 'a']--;
-        }
-        for (int c : count) {
-            if (c != 0) {
+         }
+         int[] freq = new int[26];
+         for (char c: s.toCharArray()) {
+            int val = c - 'a';
+            freq[val]++;
+         }
+         for (char c: t.toCharArray()) {
+            int val = c - 'a';
+            freq[val]--;
+         }
+         for (int f: freq) {
+            if (f != 0) {
                 return false;
             }
-        }
-        return true;
+         }
+         return true;
     }
 }
