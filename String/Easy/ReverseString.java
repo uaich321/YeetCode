@@ -1,3 +1,4 @@
+package Easy;
 /*
   This is a very simple problem. Simply reverse the array in place by swapping
   the first and last element, then the second and second to last element, and so on

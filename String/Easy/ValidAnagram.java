@@ -1,3 +1,4 @@
+package Easy;
 /*
   First, we check if the lengths of the two strings are different. 
   If they are, we can immediately return false since they cannot be anagrams.
