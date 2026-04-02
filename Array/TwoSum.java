@@ -1,5 +1,8 @@
-package Map;
+package Array;
 /*
+
+Subtopic: Map
+
 The bad version of two sum problem is to use two loops to find the solution, which
 has a time complexity of O(n^2). Despite the power of high-speed computing,
 this approach could be better. 

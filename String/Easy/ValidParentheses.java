@@ -1,6 +1,9 @@
 package Easy;
 import java.util.Stack;
 /*
+
+    Subtopic: Stack
+
     To solve this problem, note that the way the parentheses match is if the last opening bracket
     is the first one closed.
 
