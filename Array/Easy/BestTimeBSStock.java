@@ -1,4 +1,4 @@
-package Array;
+package Array.Easy;
 
 /* 
  * Problem: Best Time to Buy and Sell Stock

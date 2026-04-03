@@ -1,4 +1,4 @@
-package Array;
+package Array.Medium;
 /*
 Subtopic: Map
 
