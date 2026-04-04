@@ -1,9 +1,20 @@
 package Design;
 
+/*
+    Topics: Linked List, HashMap
+
+    To solve this problem, we need to use a combination of a doubly linked list and a hash map.
+
+    The most important thing to do to avoid the various edge cases that come with
+    doubly linked lists is to create a dummy node at the beginning and end of the list.
+
+    The hash map will be used to store the key and the node that contains the key and value,
+    so that we can access the node in constant time.
+
+    Get and Put should be easy to follow based on how they were described in the problem statement.
+*/
+
 import java.util.HashMap;
-
-import org.w3c.dom.Node;
-
 public class LRUCache {
     class Node {
         int key;
