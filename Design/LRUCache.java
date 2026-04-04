@@ -12,6 +12,11 @@ package Design;
     so that we can access the node in constant time.
 
     Get and Put should be easy to follow based on how they were described in the problem statement.
+
+    Note that I made two helper functions, removeNode and addToHead, to avoid code repetition and make the code more concise.
+
+    Also, a friendly reminder that to move a node, you have to first remove the node then add it to the head. 
+    Luckily, this is easy to do with the helper functions.
 */
 
 import java.util.HashMap;
