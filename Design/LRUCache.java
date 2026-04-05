@@ -1,7 +1,7 @@
 package Design;
 
 /*
-    Topics: Linked List, HashMap
+    Subtopics: Linked List, HashMap
 
     To solve this problem, we need to use a combination of a doubly linked list and a hash map.
 
