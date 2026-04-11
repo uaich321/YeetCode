@@ -1,5 +1,9 @@
 package Array.Easy;
 
+/*
+    To solve this problem, simply follow the instructions in the description.
+    Just make sure to have the correct bounds for the loop. 
+ */
 class MaxGenArray {
     public int getMaximumGenerated(int n) {
         if (n == 0) {
@@ -9,7 +13,7 @@ class MaxGenArray {
         nums[0]= 0;
         nums[1] = 1;
         int i = 0;
-        while (i < n + 1 && 2 * i + 1 < n + 1) {
+        while (2 * i + 1 < n + 1) {
             nums[2 * i] = nums[i];
             nums[2 * i + 1] = nums[i] + nums[i + 1];
             i++;
