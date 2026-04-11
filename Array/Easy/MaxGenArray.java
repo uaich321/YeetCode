@@ -4,7 +4,7 @@ package Array.Easy;
     To solve this problem, simply follow the instructions in the description.
     Just make sure to have the correct bounds for the loop. 
  */
-class MaxGenArray {
+public class MaxGenArray {
     public int getMaximumGenerated(int n) {
         if (n == 0) {
             return 0;
