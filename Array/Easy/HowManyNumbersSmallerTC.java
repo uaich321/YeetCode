@@ -26,6 +26,4 @@ public class HowManyNumbersSmallerTC {
          }
          return nums;
     }
-} {
-    
-}
+} 
